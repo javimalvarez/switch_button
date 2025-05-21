@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment[es_ES]=entrada de escritorio
+Comment=entrada de escritorio
+Exec=bash -c "~/.local/bin/shutdown.sh"
+GenericName[es_ES]=Cierre de sesión y apagado
+GenericName=Cierre de sesión y apagado
+Icon=system-shutdown
+MimeType=
+Name[es_ES]=switch_button
+Name=Apagar
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
