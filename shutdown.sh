@@ -4,7 +4,7 @@ if groups | grep -q '\bsudo\b' || groups | grep -q '\bwheel\b'; then
     # Se mostrará al usuario un menú
     # Título del menú
     titulo="Menú de apagado"
-    zenity --info --title="$titulo" --text="$USER bienvenido al menu de apagado de bash" --width=150 --timeout=3
+    zenity --info --title="$titulo" --text="Bienvenido $USER" --width=150 --timeout=3
     # Opciones del menú
     opciones=(
         "Cerrar sesión"
